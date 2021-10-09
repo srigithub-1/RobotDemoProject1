@@ -5,7 +5,7 @@ Resource    ./../Resources/RSAPracticePage.robot
 
 *** Test Cases ***
 Automating The Practice Page
-    [Tags]    Automate The Practice Page
+    [Tags]    Automate The Rahul Shetty Academy Practice Page
     Given I Open Google Home Page
     Then I Open the Application
     When I Enter the Name
