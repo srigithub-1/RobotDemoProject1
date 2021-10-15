@@ -14,3 +14,4 @@ Automating The Practice Page
     And I Select Employment Status
     Then I Select the Gender
     And I Close the Application
+    And I Am Done with the Test Case
