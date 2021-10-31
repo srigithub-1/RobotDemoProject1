@@ -1,10 +1,9 @@
 *** Settings ***
 Documentation    Automate RSAPracticePage
-Library     SeleniumLibrary
 Resource    ./../Resources/RSAPracticePage.robot
 Resource    ./../Resources/Common.robot
-Test Setup  I Open Google Home Page
-Test Teardown   Close The Browser
+# Test Setup  I Open Google Home Page
+# Test Teardown   Close The Browser
 
 
 *** Test Cases ***
