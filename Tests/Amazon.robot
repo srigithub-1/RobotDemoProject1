@@ -2,9 +2,11 @@
 Documentation    This is a sample smoke test
 Library     SeleniumLibrary
 #Resource    GoogleSearch.robot
+Suite Setup  I Open Google Home Page
+Suite Teardown   Close The Browser
 
 *** Variables ***
-${BROWSER}  gc
+# ${BROWSER}  gc
 *** Test Cases ***
 User must sign in to check out
     [Documentation]     This is a smoke test
@@ -13,7 +15,7 @@ User must sign in to check out
 #    When action
 #    Then check expectations
 
-    Open Browser    http://www.amazon.ca   ${BROWSER}
+    Go To    http://www.amazon.ca   # ${BROWSER}
     Wait Until Page Contains  Select your address
     Input Text  id=twotabsearchtextbox  Ferrari 458
     Click Button  id=nav-search-submit-button
@@ -27,7 +29,7 @@ User must sign in to check out
 #    Wait Until Page Contains  Added to Cart
 #    Click Link  id=hlb-ptc-btn-native
 #    Page Should Contain Element  continue
-    Close Browser
+#    Close Browser
 
 *** Keywords ***
 #Provided precondition
