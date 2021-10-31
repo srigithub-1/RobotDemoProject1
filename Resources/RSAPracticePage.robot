@@ -1,7 +1,4 @@
 *** Keywords ***
-I Open Google Home Page
-    Open Browser    http://www.google.com   gc
-
 I Open the Application
     Go To   https://rahulshettyacademy.com/angularpractice/
 
@@ -19,11 +16,7 @@ I Select the Gender
 
 I Select Employment Status
     Select Radio Button     inlineRadioOptions       option1
-
-I Close the Application
-    Close Window
-
-Close The Browser
-    Close Browser
-
+#
+#I Close the Application
+#    Close Window
 
