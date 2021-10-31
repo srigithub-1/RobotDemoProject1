@@ -17,4 +17,3 @@ Automating The Practice Page
     Then I Enter the Password
     And I Select Employment Status
     Then I Select the Gender
-    And I Close the Application
