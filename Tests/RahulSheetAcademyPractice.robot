@@ -4,7 +4,7 @@ Resource    ./../Resources/RSAPracticePage.robot
 Resource    ./../Resources/Common.robot
 # Test Setup  I Open Google Home Page
 # Test Teardown   Close The Browser
-
+Suite Teardown   Close The Browser
 
 *** Test Cases ***
 Automating The Practice Page

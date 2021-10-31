@@ -4,7 +4,6 @@ Library     SeleniumLibrary
 Resource    ./../Resources/Common.robot
 #Resource    GoogleSearch.robot
 Suite Setup  I Open Google Home Page
-Suite Teardown   Close The Browser
 
 *** Variables ***
 # ${BROWSER}  gc
