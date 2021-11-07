@@ -15,5 +15,5 @@ Click on the Shop Tab
     Click Element   xpath=//a[text()='Shop']
 
 Verify that the Shop page is displayed
-    Wait Until Page Contains    xpath=//a[text()='ProtoCommerce Home']
+    Wait Until Page Contains Element   xpath=//a[text()='ProtoCommerce Home']      timeout=60
     Close Browser
