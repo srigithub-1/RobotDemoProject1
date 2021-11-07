@@ -1,6 +1,5 @@
 *** Settings ***
 Documentation    RahulShettyAcademyShopPageAutomation
-Library     SeleniumLibrary
 Resource    ./../Resources/RSAShop.robot
 
 *** Test Cases ***

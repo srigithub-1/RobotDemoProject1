@@ -1,5 +1,6 @@
 *** Settings ***
 Documentation    Logic for RSAShop
+Library     SeleniumLibrary
 
 *** Keywords ***
 Click on the Shop Tab
