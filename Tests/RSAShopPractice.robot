@@ -10,6 +10,7 @@ TC001_Open RSAShop Page
 
 *** Keywords ***
 Click on the Shop Tab
+    Open Browser    http://www.google.com   gc
     Go To   https://rahulshettyacademy.com/angularpractice/
     Click Element   xpath=//a[text()='Shop']
 
