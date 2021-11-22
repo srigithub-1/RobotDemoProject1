@@ -11,4 +11,4 @@ Verify that the Shop page is displayed
     Wait Until Page Contains Element   xpath=//a[text()='ProtoCommerce Home']      timeout=60
     ${ElementCount}=    Get Element Count       xpath=//app-card[@class='col-lg-3 col-md-6 mb-3']
     ${NoofElements}=    Get Element Count          xpath=//app-card-list[@class='row']
-    Click Element   xpath=//app-card-list[@class='row']/app-card[1]/div/div[2]/button   timeout=60
+    Click Element   xpath=//app-card-list[@class='row']/app-card[1]/div/div[2]/button
