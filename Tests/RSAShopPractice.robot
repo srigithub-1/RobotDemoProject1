@@ -18,3 +18,4 @@ TC003_Checkout
     Checkout the cart items
 
 TC004_Final checkout
+    Final checkout
