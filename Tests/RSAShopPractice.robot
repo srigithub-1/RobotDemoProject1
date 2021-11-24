@@ -3,7 +3,7 @@ Documentation    RahulShettyAcademyShopPageAutomation
 Resource    ./../Resources/RSAShop.robot
 Resource    ./../Resources/Common.robot
 Suite Setup      I Open Google Home Page
-# Test Teardown   Close The Browser
+Suite Teardown   Close The Browser
 
 *** Test Cases ***
 TC001_Open RSAShop Page
