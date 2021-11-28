@@ -3,6 +3,8 @@ Documentation    Logic for RSAShop
 Resource    ./PO/ShopPageDisplay.robot
 Resource    ./PO/ShopTab.robot
 Resource    ./PO/AddCartItems.robot
+Resource    ./PO/CartCheckout.robot
+Resource    ./PO/CheckOut.robot
 
 *** Keywords ***
 Click on the Shop Tab
@@ -16,6 +18,7 @@ Add items to cart
 
 Checkout the cart items
     CartCheckout.Cart Items Checkout
+    Cart Items Checkout
 
 Final checkout
     CheckOut.Final Checkout
