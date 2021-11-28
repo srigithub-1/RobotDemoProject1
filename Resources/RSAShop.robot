@@ -19,5 +19,5 @@ Add items to cart
 Checkout the cart items
     CartCheckout.Cart Items Checkout
 
-Final checkout
+Complete checkout
     CheckOut.Final Checkout
