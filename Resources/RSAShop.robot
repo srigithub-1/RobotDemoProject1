@@ -7,17 +7,17 @@ Resource    ./PO/CartCheckout.robot
 Resource    ./PO/CheckOut.robot
 
 *** Keywords ***
-Click on the Shop Tab
+I Click on the Shop Tab
     Clicking the Shop Tab to Go to Shop Page
 
-Verify that the Shop page is displayed
+I Verify that the Shop page is displayed
     Wait Until the Shop page is displayed
 
-Add items to cart
+I Add items to cart
     Add Items to Cart
 
-Checkout the cart items
+I Checkout the cart items
     Checkout the Items
 
-Do checkout
+I Do checkout
     Final Checkout of the selected items
