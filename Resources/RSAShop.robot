@@ -8,7 +8,7 @@ Resource    ./PO/CheckOut.robot
 
 *** Keywords ***
 Click on the Shop Tab
-    ShopTab.Shop Tab
+    Shop Tab
 
 Verify that the Shop page is displayed
     ShopPageDisplay.Shop page
