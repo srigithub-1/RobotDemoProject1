@@ -11,13 +11,13 @@ Click on the Shop Tab
     Shop Tab
 
 Verify that the Shop page is displayed
-    ShopPageDisplay.Shop page
+    Shop page
 
 Add items to cart
-    AddCartItems.Add to Cart
+    Add to Cart
 
 Checkout the cart items
-    CartCheckout.Cart Items Checkout
+    Cart Items Checkout
 
 Complete checkout
-    CheckOut.Final Checkout
+    Final Checkout
