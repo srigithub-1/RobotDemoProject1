@@ -2,6 +2,6 @@
 Library     SeleniumLibrary
 
 *** Keywords ***
-Shop Tab
+Clicking the Shop Tab to Go to Shop Page
     Go To   https://rahulshettyacademy.com/angularpractice/
     Click Element   xpath=//a[text()='Shop']

@@ -2,5 +2,5 @@
 Library     SeleniumLibrary
 
 *** Keywords ***
-Cart Items Checkout
+Checkout the Items
     Click Element   xpath=//a[contains(@class,'btn-primary')]

@@ -2,7 +2,7 @@
 Library     SeleniumLibrary
 
 *** Keywords ***
-Final Checkout
+Final Checkout of the selected items
     Click Element   xpath=//button[contains(text(),'Checkout')]
     Wait Until Page Contains Element    xpath=//label[contains(text(),'delivery location')]     timeout=90
     Input Text       xpath=//input[@id='country']   India       clear=True

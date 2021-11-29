@@ -8,14 +8,14 @@ Suite Teardown   Close The Browser
 *** Test Cases ***
 TC001_Open RSAShop Page
     [Tags]      Smoke
-    Click on the Shop Tab
-    Verify that the Shop page is displayed
+    When I Click on the Shop Tab
+    Then I Verify that the Shop page is displayed
 
 TC002_Add to Cart
-    Add items to cart
+    And I Add items to cart
 
 TC003_Checkout
-    Checkout the cart items
+    Then I Checkout the cart items
 
 TC004_Final checkout
-    Final checkout
+    And I Do checkout
