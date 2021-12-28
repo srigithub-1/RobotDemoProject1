@@ -6,8 +6,8 @@ Suite Setup      I Open Google Home Page
 Suite Teardown   Close The Browser
 
 *** Variables ***
-${BROWSER_URL} = http://www.google.com
-${BROWSER} = gc
+${BROWSER_URL} =    http://www.google.com
+${BROWSER} =    gc
 
 *** Test Cases ***
 TC001_Open RSAShop Page
