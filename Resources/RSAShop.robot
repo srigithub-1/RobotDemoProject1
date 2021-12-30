@@ -20,4 +20,5 @@ I Checkout the cart items
     Checkout the Items
 
 I Do checkout
-    Final Checkout of the selected items
+    [Arguments]     ${Country}
+    Final Checkout of the selected items    ${Country}

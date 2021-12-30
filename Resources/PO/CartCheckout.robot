@@ -1,6 +1,9 @@
 *** Settings ***
 Library     SeleniumLibrary
 
+*** Variables ***
+${Checkout_Button}      xpath=//a[contains(@class,'btn-primary')]
+
 *** Keywords ***
 Checkout the Items
-    Click Element   xpath=//a[contains(@class,'btn-primary')]
+    Click Element   ${Checkout_Button}

@@ -6,6 +6,7 @@ Suite Setup      I Open Google Home Page
 Suite Teardown   Close The Browser
 
 *** Variables ***
+# These are global variables
 ${BROWSER_URL} =    http://www.google.com
 ${BROWSER} =    gc
 
@@ -22,4 +23,4 @@ TC003_Checkout
     Then I Checkout the cart items
 
 TC004_Final checkout
-    And I Do checkout
+    And I Do checkout       India
